@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/pc/IdeaProjects/angular/mcp"
+      ]
+    },
+    "Python_MCP_Server": {
+      "command": "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\uv.exe",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\Users\\pc\\IdeaProjects\\angular\\mcp\\python-mcp-server\\server.py"
+      ]
+    }
+  }
+}
